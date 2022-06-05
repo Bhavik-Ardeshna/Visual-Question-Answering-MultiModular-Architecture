@@ -2,7 +2,7 @@ import os
 from typing import Dict, Text
 from datasets import load_dataset
 
-def loadDaquarDataset(config: Dict) -> Dict:
+def loadQADataset(config: Dict) -> Dict:
     dataset = load_dataset(
         "csv", 
         data_files={
